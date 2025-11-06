@@ -1,53 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Wiki</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-        }
-        header {
-            background: #333;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-        nav {
-            background: #555;
-            padding: 0.5rem;
-            display: flex;
-            justify-content: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 1rem;
-            text-decoration: none;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        main {
-            padding: 2rem;
-            max-width: 800px;
-            margin: auto;
-            background: white;
-        }
-        section {
-            display: none;
-        }
-        section.active {
-            display: block;
-        }
-    </style>
+    <title>Page Template</title>
+    <link rel="stylesheet" href="style_main.css" type="text/css">
 </head>
+
 <body>
     <header>
-        <h1>Mini Wiki</h1>
+        <h1>
+            Blank Page - Template
+        </h1>
+        <nav style="display: inline;">
+            <a>Test1</a>
+            <a>Test2</a>
+        </nav>
     </header>
-    <nav>
-        <a
+    <table>
+        <tr>
+            <td><div> <!-- Intro Text -->
+                <h1>Item</h1>
+                <p>The item is found in this and this location and is used to craft so and so.</p>
+            </div></td>
+            <td><div> <!-- Right Container -->
+                <h2>Item</h2>
+                <!-- <img></img> -->
+                <p><small><i>This is an item.</i></small></p>
+            </div></td>
+        </tr>
+    </table>
+</body>
+
+</html>
